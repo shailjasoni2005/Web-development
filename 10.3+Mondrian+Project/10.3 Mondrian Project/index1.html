@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mondrian paintaing</title>
+
+    <style>
+
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .container{
+            height: 750px;
+            width: 600px;
+            display: grid;
+            background-color: rgb(83, 79, 79);
+            grid-template-columns: 250px 100px 200px 50px;
+            grid-template-rows: 100px 300px 50px 250px 50px;
+            gap: 10px;
+        }
+
+        .red1{
+            background-color: red;
+        }
+
+        .white1{
+            background-color: rgb(244, 240, 240);
+        }
+
+        .white2{
+            background-color: rgb(244, 240, 240);
+            grid-area: 3/3/4/2;
+        }
+
+        .blue1{
+            background-color: blue;
+        }
+
+        .black1{
+            background-color: #000;
+        }
+
+        .yellow1{
+            background-color: yellow;
+            grid-area: 2/3/3/4;
+        }
+
+        .white3{
+            background-color:rgb(244, 240, 240);
+            grid-row: span 2;
+        }
+
+        .black2{
+            background-color: #000;
+            grid-row: span 3;
+        }
+
+        .white4{
+            background-color: rgb(244, 240, 240);
+        }
+
+        .red2{
+            background-color: red;
+            grid-row: span 2;
+        }
+
+        .red3{
+            background-color: red;
+            grid-row: span 2;
+        }
+
+        .white5{
+            background-color: rgb(244, 240, 240);
+        }
+
+        .blue2{
+            background-color: blue;
+            grid-area: 4/2/5/3;
+        }
+
+        .white6{
+            background-color: rgb(244, 240, 240);
+            grid-area: 4/3/5/4;
+        }
+
+        .white7{
+            background-color: rgb(244, 240, 240);
+            grid-area: 4/4/5/5;
+        }
+
+        .yellow2{
+            background-color: yellow;
+            grid-column: span 4 ;
+        }
+
+        .white8{
+            background-color: rgb(244, 240, 240);
+            grid-column:span 2 ;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="red1"></div>
+        <div class="white1"></div>
+        <div class="white2"></div>
+        <div class="blue1"></div>
+        <div class="black1"></div>
+        <div class="yellow1"></div>
+        <div class="white3"></div>
+        <div class="black2"></div>
+        <div class="white4"></div>
+        <div class="red2"></div>
+        <div class="red3"></div>
+        <div class="white5"></div>
+        <div class="blue2"></div>
+        <div class="white6"></div>
+        <div class="white7"></div>
+        <div class="yellow2"></div>
+        <div class="white8"></div>
+    </div>
+</body>
+</html>
