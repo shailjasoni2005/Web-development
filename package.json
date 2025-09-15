@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "dependencies": {
+    "inquirer": "^12.9.6",
+    "qr-image": "^3.2.0"
+  },
+  "name": "web-development",
+  "version": "1.0.0",
+  "main": "javascript.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shailjasoni2005/Web-development.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shailjasoni2005/Web-development/issues"
+  },
+  "homepage": "https://github.com/shailjasoni2005/Web-development#readme",
+  "description": ""
+}
